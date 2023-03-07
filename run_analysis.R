@@ -70,3 +70,4 @@ tidy_data <- extract_data %>%
 
 head(tidy_data, 2)
 
+write.table(tidy_data, "tidydata.txt", row.name=FALSE)
